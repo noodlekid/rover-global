@@ -1,0 +1,3 @@
+[submodule "control-interface-v"]
+	path = control-interface-v
+	url = https://github.com/noodlekid/control-interface-v2

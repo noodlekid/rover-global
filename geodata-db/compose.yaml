@@ -1,0 +1,16 @@
+services:
+  db:
+    container_name: db
+    image: postgis/postgis:14-3.4-alpine
+    environment:
+      - POSTGRES_DB=cprtdb
+      - POSTGRES_USER=cprt
+      - POSTGRES_PASSWORD=cprt
+    ports:
+      - 5432:5432
+
+    volumes:
+      - postgis-data:/var/lib/postgresql/data
+
+volumes:
+  postgis-data: {}
