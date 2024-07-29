@@ -1,3 +1,6 @@
-[submodule "control-interface-v"]
+[submodule "control-interface-v2"]
 	path = control-interface-v2
 	url = https://github.com/noodlekid/control-interface-v2
+[submodule "tileserver-gl"]
+	path = tileserver-gl
+	url = https://github.com/noodlekid/tilerserver-gl
